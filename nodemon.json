@@ -1,0 +1,10 @@
+{
+  "watch": [
+    "./index.ts"
+  ],
+  "ext": "ts,js,json",
+  "ignore": [
+    ".{spec,test}.ts"
+  ],
+  "exec": "npm run build && node build/index.js"
+}
